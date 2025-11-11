@@ -13,3 +13,8 @@ resources:
           sql_warehouse:
             id: "12f4ea3ddb7ea992"
             permission: 'CAN_USE'
+
+targets:
+  dev:
+    workspace:
+      host: "https://dbc-2a19c73f-4550.cloud.databricks.com/"
