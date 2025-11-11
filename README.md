@@ -1,2 +1,3 @@
-# pockit
-Compas AI &amp; Data Summit Workshop Demo
+# Pockit
+---
+Personal finance tracker application
