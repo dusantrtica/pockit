@@ -1,0 +1,15 @@
+bundle:
+  name: pockit_bundle
+
+resources:
+  apps:
+    pockit_app:
+      name: 'pockit'
+      description: "The user interface to the Pockit personal finance tracker app."
+      source_code_path: ./app
+
+      resources:
+        - name: 'sql-warehouse'
+          sql_warehouse:
+            id: "12f4ea3ddb7ea992"
+            permission: 'CAN_USE'
